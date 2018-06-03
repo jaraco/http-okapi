@@ -8,6 +8,8 @@ except ImportError:
 
 import cherrypy
 
+import http_okapi
+
 
 class Server:
 	@cherrypy.expose
@@ -18,9 +20,9 @@ class Server:
 		b'...'
 		"""
 		cherrypy.response.headers['Content-Type'] = 'text/html'
-		doc = importlib.resources.read_text(__package__, 'okapi.html')
+		doc = importlib.resources.read_text(http_okapi, 'okapi.html')
 		return doc.encode('utf-8')
 
 	@cherrypy.expose
 	def okapibg_png(self):
-		return importlib.resources.read_binary(__package__, 'okapibg.png')
+		return importlib.resources.read_binary(http_okapi, 'okapibg.png')
