@@ -33,6 +33,7 @@ params = dict(
 	),
 	python_requires='>=2.7',
 	install_requires=[
+		'importlib_resources; python_version<"3.7"',
 	],
 	extras_require={
 		'testing': [
@@ -43,6 +44,7 @@ params = dict(
 			'pytest-flake8',
 
 			# local
+			'cherrypy',
 		],
 		'docs': [
 			# upstream
