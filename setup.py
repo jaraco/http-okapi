@@ -9,8 +9,8 @@ import setuptools
 with io.open('README.rst', encoding='utf-8') as readme:
 	long_description = readme.read()
 
-name = 'skeleton'
-description = ''
+name = 'http-okapi'
+description = 'A tool for working with HTTP APIs'
 nspkg_technique = 'native'
 """
 Does this package use "native" namespace packages or
