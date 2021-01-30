@@ -1,16 +1,21 @@
 .. image:: https://img.shields.io/pypi/v/http-okapi.svg
-   :target: https://pypi.org/project/http-okapi
+   :target: `PyPI link`_
 
 .. image:: https://img.shields.io/pypi/pyversions/http-okapi.svg
+   :target: `PyPI link`_
 
-.. image:: https://img.shields.io/travis/jaraco/http-okapi/master.svg
-   :target: https://travis-ci.org/jaraco/http-okapi
+.. _PyPI link: https://pypi.org/project/http-okapi
 
-.. .. image:: https://img.shields.io/appveyor/ci/jaraco/http-okapi/master.svg
-..    :target: https://ci.appveyor.com/project/jaraco/http-okapi/branch/master
+.. image:: https://github.com/jaraco/http-okapi/workflows/Automated%20Tests/badge.svg
+   :target: https://github.com/jaraco/http-okapi/actions?query=workflow%3A%22Automated+Tests%22
+   :alt: Automated Tests
 
-.. .. image:: https://readthedocs.org/projects/http-okapi/badge/?version=latest
-..    :target: https://http-okapi.readthedocs.io/en/latest/?badge=latest
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
+   :alt: Code style: Black
+
+.. .. image:: https://readthedocs.org/projects/skeleton/badge/?version=latest
+..    :target: https://skeleton.readthedocs.io/en/latest/?badge=latest
 
 A simple HTTP API tool.
 
