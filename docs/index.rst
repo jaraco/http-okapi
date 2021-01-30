@@ -1,5 +1,5 @@
-Welcome to http-okapi documentation!
-====================================
+Welcome to |project| documentation!
+===================================
 
 .. toctree::
    :maxdepth: 1
